@@ -13,7 +13,7 @@ This software is fully created by only one guy, for free and only by passion, so
 
 .. note::
 
-   This documentation is open-source! Click here to go to the [github repo](https://github.com/Ward727a/doc_rpg_creator).
+   This documentation is open-source! (https://github.com/Ward727a/doc_rpg_creator).
 
 .. warning::
 
