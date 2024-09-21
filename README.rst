@@ -1,9 +1,9 @@
-Template for the Read the Docs tutorial
-=======================================
+This is the official documentation of the RPG Creator software!
+======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Link to the documentation site: https://rpg-creator-doc.readthedocs.io/en/latest/index.html
 
-Read the tutorial here:
+Documentation created with ReadTheDocs.io!
 
+Documentation of readthedocs:
 https://docs.readthedocs.io/en/stable/tutorial/
