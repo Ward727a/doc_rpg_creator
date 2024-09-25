@@ -22,27 +22,45 @@ Low-Level Permissions
 ---------------------
 
 - UI > Give the ability to the script to create custom UI nodes.
+
 - REGISTERS > Give the ability to the script to access to all register of the software
+
   - REGISTERS:UI > Give the ability to the script to access to the "UI Register".
+
   - REGISTERS:CHARACTER > Give the ability to the script to access the "Characters Register".
+
   - REGISTERS:EFFECT > Give the ability to the script to access the "Effects Register".
+
   - REGISTERS:ENUM > Give the ability to the script to access the "Enums Register".
+
   - REGISTERS:HISTORY > Give the ability to the script to access the "History Register".
+
   - REGISTERS:ITEM_PARAMETERS > Give the ability to the script to access the "Item Parameters Register".
+
   - REGISTERS:ITEM > Give the ability to the script to access the "Item Register".
+
   - REGISTERS:SKILL_CONDITION > Give the ability to the script to access the "Skill Condition Register".
+
   - REGISTERS:SKILL > Give the ability to the script to access the "Skill Register".
+
 - ITEM_EVENTS > Give the ability to the script to link custom function to item event (new_item, delete_item, edit_item, select_item)
+
   - ITEM_EVENTS:NEW_ITEM > Give the ability to the script to link custom function to the "new_item" event.
+
   - ITEM_EVENTS:DELETE_ITEM > Give the ability to the script to link custom function to the "delete_item" event.
+
   - ITEM_EVENTS:EDIT_ITEM > Give the ability to the script to link custom function to the "edit_item" event.
+
   - ITEM_EVENTS:SELECT_ITEM > Give the ability to the script to link custom function to the "select_item" event.
 
 Medium-Level Permissions
 ------------------------
 
 - LIMITED_FILE > Give the ability to the script to create, edit, remove, read file that he created himself for script, and for files that are found in the plugin folder for plugin.
+
   - LIMITED_FILE:READ > Give the ability to the script to read file that he created himself for script, and for files that are found in the plugin folder for plugin.
+
   - LIMITED_FILE:REMOVE > Give the ability to the script to remove file that he created himself for script, and for files that are found in the plugin folder for plugin.
+
   - LIMITED_FILE:EDIT > Give the ability to the script to edit file that he created himself for script, and for files that are found in the plugin folder for plugin.
   - LIMITED_FILE:CREATE > Give the ability to the script to create file for script, and for plugin, only in is own plugin folder.
