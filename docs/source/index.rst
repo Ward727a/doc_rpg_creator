@@ -18,3 +18,9 @@ This software is fully created by only one guy, for free and only by passion, so
 .. warning::
 
    This documentation is still in a WIP state. Their will be some informations that are missing but I will add them later on!
+
+
+
+.. toctree::
+
+   registers
