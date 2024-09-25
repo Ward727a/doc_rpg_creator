@@ -24,3 +24,4 @@ This software is fully created by only one guy, for free and only by passion, so
 .. toctree::
 
    registers
+   permissions/permissions
