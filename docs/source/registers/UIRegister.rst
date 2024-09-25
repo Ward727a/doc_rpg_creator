@@ -26,7 +26,7 @@ LUA Method Descriptions
 
 |bool| **has_ui**\ (\UI_Key\: String\)
 
-This method will check if the UI key given exist or not.
+| This method will check if the UI key given exist or not.
 
 .. rst-class:: classref-item-separator
 
