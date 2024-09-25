@@ -12,8 +12,11 @@ The permission system was created to allow the user of custom script to control 
 When a developer create a custom script / plugin, they need to ask for permissions before using a lot of methods, if the script try to access a method that was not asked before by a permission, the script will not work as the software didn't give the permission to do it.
 
 There is 3 levels of permission:
+
 - Low-level: Those permissions will just show a message box to the user where the user can allow all, some or none.
+
 - Medium-level: Those permissions are more powerfull than low-level, so the user will get a warning message before accepting the permission.
+
 - High-level: Those permissions are **VERY** powerfull, they can remove file, create new file, access internet,... So the user will get a warning message where he need to wait 5 seconds and write a text in a box before having the right to accept.
 
 If a user refuse to give the permission to a script, the script can ask again **one** time only, after that, the script will not be able to ask anymore and the user will need to allow it manually in the software settings.
