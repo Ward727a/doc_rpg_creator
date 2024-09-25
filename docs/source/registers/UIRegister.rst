@@ -26,9 +26,11 @@ LUA Method Descriptions
 
 .. rst-class:: classref-method
 
-|bool| **has_ui**\ (\UI_Key\: String\)
+*bool* **has_ui**\ (\UI_Key\: *String*\)
 
-| This method will check if the UI key given exist or not.
+This method will check if the UI key given exist or not.
+
+If the key doesn't exist, this method will return false, and will return true if it exist.
 
 .. rst-class:: classref-item-separator
 
