@@ -27,6 +27,12 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
+# These paths are either relative to html_static_path
+# or fully qualified paths (e.g. https://...)
+html_css_files = [
+    "css/custom.css?10", # Increment the number at the end when the file changes to bust the cache.
+]
+
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
