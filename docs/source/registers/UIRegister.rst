@@ -14,12 +14,15 @@ You can even replace them by your own UI by "overriding" the key of the UI.
 
 Each UI has 1 unique key.
 
-LUA Methods
--------------
 
 .. note::
 
    To use those methods you need to ask for permission: `REGISTERS` or `REGISTERS:UI`!
+
+
+LUA Methods
+-------------
+
 
 .. table::
    :widths: auto
