@@ -21,8 +21,9 @@ LUA Methods
 LUA Method Descriptions
 -------------------
 .. _class_Registers_UI_Method_has_ui:
+.. rst-class:: classref-method
 
-|bool| has_ui(\UI_Key\: String\)
+*bool* **has_ui**(\UI_Key\: String\)
 
 This method will check if the UI key given exist or not.
 
