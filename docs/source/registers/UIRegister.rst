@@ -17,6 +17,10 @@ Each UI has 1 unique key.
 LUA Methods
 -------------
 
+.. note::
+
+   To use those methods you need to ask for permission: `REGISTERS` or `REGISTERS:UI`!
+
 .. table::
    :widths: auto
 
