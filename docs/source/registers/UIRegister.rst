@@ -18,6 +18,8 @@ LUA Methods
    | *bool*                                                                      | :ref:`has_ui<class_Registers_UI_Method_has_ui>`\ (\String)                        |
    +-----------------------------------------------------------------------------+-----------------------------------------------------------------------------------+
 
+.. rst-class:: classref-descriptions-group
+
 LUA Method Descriptions
 -------------------
 .. _class_Registers_UI_Method_has_ui:
