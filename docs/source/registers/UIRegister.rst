@@ -38,6 +38,7 @@ LUA Methods
 
 LUA Method Descriptions
 -------------------
+
 .. _class_Registers_UI_Method_has_ui:
 
 .. rst-class:: classref-method
@@ -51,6 +52,7 @@ If the key doesn't exist, this method will return false, and will return true if
 .. rst-class:: classref-item-separator
 
 ----
+
 .. _class_Registers_UI_Method_add_ui:
 
 .. rst-class:: classref-method
@@ -66,6 +68,7 @@ For replacing UI that already exist, check: :ref:`set_ui<class_Registers_UI_Meth
 .. rst-class:: classref-item-separator
 
 ----
+
 .. _class_Registers_UI_Method_set_ui:
 
 .. rst-class:: classref-method
@@ -79,6 +82,7 @@ If the key already exist, it will be replaced by the new node given.
 .. rst-class:: classref-item-separator
 
 ----
+
 .. _class_Registers_UI_Method_get_ui:
 
 .. rst-class:: classref-method
@@ -92,7 +96,8 @@ If not, it will return "null" so be sure to check if the UI_key exist or not!
 .. rst-class:: classref-item-separator
 
 ----
-.. class_Registers_UI_Method_get_ui_list:
+
+.. _class_Registers_UI_Method_get_ui_list:
 
 .. rst-class:: classref-method
 
@@ -103,7 +108,8 @@ This method will return a list of all UI_Key that are in the UI Register.
 .. rst-class:: classref-item-separator
 
 ----
-.. class_Registers_UI_Method_remove_ui:
+
+.. _class_Registers_UI_Method_remove_ui:
 
 .. rst-class:: classref-method
 
