@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'RPG Creator'
-copyright = '2024, Ward727'
+copyright = '2024-present, Ward727 - CSS style by Godot!'
 author = 'Ward727'
 
 release = '0.1'
