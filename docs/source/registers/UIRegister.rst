@@ -4,11 +4,13 @@ UI Register
 .. warning::
 
    This page is still under-construction!
-   
+
    Some information could be missing.
 
-The UI Register is the area where all UI created by LUA can be found. 
-As a majority of UI in the software is created by LUA, you can get all of the UI with this object.
+The UI Register is the area where all UI
+created by LUA can be found.
+As a majority of UI in the software is created by
+LUA, you can get all of the UI with this object.
 
 You can even replace them by your own UI by "overriding" the key of the UI.
 
@@ -27,24 +29,24 @@ LUA Methods
 .. table::
    :widths: auto
 
-   +-----------------------------------------------------------------------------+-----------------------------------------------------------------------------------+
-   | *bool*                                                                      | :ref:`has_ui<class_Registers_UI_Method_has_ui>`\ (\String)                        |
-   +-----------------------------------------------------------------------------+-----------------------------------------------------------------------------------+
-   | *bool*                                                                      | :ref:`add_ui<class_Registers_UI_Method_add_ui>`\ (\String, Control)               |
-   +-----------------------------------------------------------------------------+-----------------------------------------------------------------------------------+
-   | *bool*                                                                      | :ref:`set_ui<class_Registers_UI_Method_set_ui>`\ (\String, Control)               |
-   +-----------------------------------------------------------------------------+-----------------------------------------------------------------------------------+
-   | *Control*                                                                   | :ref:`get_ui<class_Registers_UI_Method_get_ui>`\ (\String)                        |
-   +-----------------------------------------------------------------------------+-----------------------------------------------------------------------------------+
-   | *Array*                                                                     | :ref:`get_ui_list<class_Registers_UI_Method_get_ui_list>`\ (\ )                   |
-   +-----------------------------------------------------------------------------+-----------------------------------------------------------------------------------+
-   | *bool*                                                                      | :ref:`remove_ui<class_Registers_UI_Method_remove_ui>`\ (\String)                  |
-   +-----------------------------------------------------------------------------+-----------------------------------------------------------------------------------+
+   +-----------+---------------------------------------------------------------------+
+   | *bool*    | :ref:`has_ui<class_Registers_UI_Method_has_ui>`\ (\String)          |
+   +-----------+---------------------------------------------------------------------+
+   | *bool*    | :ref:`add_ui<class_Registers_UI_Method_add_ui>`\ (\String, Control) |
+   +-----------+---------------------------------------------------------------------+
+   | *bool*    | :ref:`set_ui<class_Registers_UI_Method_set_ui>`\ (\String, Control) |
+   +-----------+---------------------------------------------------------------------+
+   | *Control* | :ref:`get_ui<class_Registers_UI_Method_get_ui>`\ (\String)          |
+   +-----------+---------------------------------------------------------------------+
+   | *Array*   | :ref:`get_ui_list<class_Registers_UI_Method_get_ui_list>`\ (\ )     |
+   +-----------+---------------------------------------------------------------------+
+   | *bool*    | :ref:`remove_ui<class_Registers_UI_Method_remove_ui>`\ (\String)    |
+   +-----------+---------------------------------------------------------------------+
 
 .. rst-class:: classref-descriptions-group
 
 LUA Method Descriptions
--------------------
+-----------------------
 
 .. _class_Registers_UI_Method_has_ui:
 
@@ -54,7 +56,8 @@ LUA Method Descriptions
 
 This method will check if the UI key given exist or not.
 
-If the key doesn't exist, this method will return false, and will return true if it exist.
+If the key doesn't exist, this method will
+return false, and will return true if it exist.
 
 .. rst-class:: classref-item-separator
 
@@ -70,7 +73,8 @@ This method will add an UI to the register with the specified key.
 
 If the key already exist, it will return false and will not add the UI.
 
-For replacing UI that already exist, check: :ref:`set_ui<class_Registers_UI_Method_set_ui>` method!
+For replacing UI that already exist, check:
+:ref:`set_ui<class_Registers_UI_Method_set_ui>` method!
 
 .. rst-class:: classref-item-separator
 
@@ -126,6 +130,3 @@ This method will try to remove an UI with the specified UI Key.
 
 It return true if the UI as been removed with success, false otherwise.
 
-.. rst-class:: classref-item-separator
-
-----
